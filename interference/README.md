@@ -25,7 +25,7 @@
 
   $$\Delta = k(r_2 - r_1) + (\phi_2 - \phi_1)$$
 
-  其中 $k = \frac{2\pi}{\lambda}$ 為波數，$\phi_1, \phi_2$ 為初相位。
+  其中 $k = \frac{2\pi}{\lambda}$ 為波數， $\phi_1, \phi_2$ 為初相位。
 
 ### 波腹線（建設性干涉）：
 

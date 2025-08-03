@@ -168,11 +168,11 @@ extent = (-grid / 2.0, grid / 2.0, -grid / 2.0, grid / 2.0)
 if show_phase_map:
     phase_map = np.angle(np.exp(1j * psi))
     ax.imshow(phase_map, extent=extent, cmap="twilight", origin="lower", zorder=1)
-    ax.set_title("相位圖（twilight）")
+    ax.set_title("Phase map（twilight）")
 else:
     intensity = psi ** 2
     ax.imshow(intensity, extent=extent, cmap="gray", origin="lower", zorder=1)
-    ax.set_title("強度圖（灰階）")
+    ax.set_title("Intensity map (greyscale)")
 
 # 固定視窗，避免波前圓改變範圍
 ax.set_aspect("equal", adjustable="box")
