@@ -82,11 +82,7 @@ streamlit run interference_app.py
 
 ## 📸 模擬示意圖
 
-> 可插入：
->
-> * 波長不同 → 條紋間距變化
-> * 相位差改變 → 條紋左右偏移
-> * 退化情況 → 波腹線退化為半線
+![screenshot-1.jpg](screenshot-1.jpg)
 
 ---
 
