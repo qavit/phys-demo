@@ -18,14 +18,12 @@
 
 ## 📐 數學背景
 
-設兩波源位於 $S_1$、$S_2$，任一觀測點為 $P=(x, y)$：
+設兩波源位於 $S_1$、 $S_2$，任一觀測點為 $P=(x, y)$：
 
-* 路徑差：$r_2 - r_1$，其中 $r_i = |P - S_i|$
+* 路徑差： $r_2 - r_1$ ，其中 $r_i = |P - S_i|$
 * 相位差：
 
-  $$
-  \Delta = k(r_2 - r_1) + (\phi_2 - \phi_1)
-  $$
+  $$\Delta = k(r_2 - r_1) + (\phi_2 - \phi_1)$$
 
   其中 $k = \frac{2\pi}{\lambda}$ 為波數，$\phi_1, \phi_2$ 為初相位。
 
@@ -47,8 +45,8 @@ $$
 
 ### 波前（以單一波源為圓心）：
 
-* 波峰：$r_i = \left(n - \frac{\phi_i}{2\pi}\right) \lambda$
-* 波谷：$r_i = \left(n + \tfrac{1}{2} - \frac{\phi_i}{2\pi}\right) \lambda$
+* 波峰： $r_i = \left(n - \frac{\phi_i}{2\pi}\right) \lambda$
+* 波谷： $r_i = \left(n + \tfrac{1}{2} - \frac{\phi_i}{2\pi}\right) \lambda$
 
 ---
 
