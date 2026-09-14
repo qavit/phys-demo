@@ -189,7 +189,7 @@ if view == "合成相位":
         vmax=np.pi,
         zorder=1,
     )
-    colorbar_label = "相位（rad）"
+    colorbar_label = "Phase (rad)"
 elif view == "合成振幅":
     display_max = max(float(np.percentile(amplitude, 99.5)), 1e-12)
     image = axis.imshow(
@@ -201,7 +201,7 @@ elif view == "合成振幅":
         vmax=display_max,
         zorder=1,
     )
-    colorbar_label = "合成振幅（相對值）"
+    colorbar_label = "Resultant amplitude (relative)"
 else:
     display_max = max(float(np.percentile(intensity, 99.5)), 1e-12)
     image = axis.imshow(
@@ -213,7 +213,7 @@ else:
         vmax=display_max,
         zorder=1,
     )
-    colorbar_label = "時間平均強度 ∝ |C|²"
+    colorbar_label = "Mean intensity ∝ |C|²"
 
 colorbar = figure.colorbar(image, ax=axis, fraction=0.046, pad=0.04)
 colorbar.set_label(colorbar_label)
@@ -283,8 +283,8 @@ axis.scatter(
 )
 axis.text(source1[0], source1[1] + 0.12, "S₁", color="white", ha="center", zorder=6)
 axis.text(source2[0], source2[1] + 0.12, "S₂", color="white", ha="center", zorder=6)
-axis.set_xlabel("x（m）")
-axis.set_ylabel("y（m）")
+axis.set_xlabel("x (m)")
+axis.set_ylabel("y (m)")
 axis.set_aspect("equal", adjustable="box")
 axis.set_xlim(extent[0], extent[1])
 axis.set_ylim(extent[2], extent[3])
